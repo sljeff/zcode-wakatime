@@ -1,0 +1,19 @@
+{
+  "name": "zcode-wakatime",
+  "version": "0.1.2",
+  "description": "WakaTime time tracking for ZCode: reports coding activity as heartbeats through the wakatime CLI",
+  "author": {
+    "name": "sljeff"
+  },
+  "homepage": "https://github.com/sljeff/zcode-wakatime",
+  "repository": "https://github.com/sljeff/zcode-wakatime",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "time-tracking",
+    "productivity",
+    "metrics",
+    "wakatime"
+  ],
+  "hooks": "./hooks/hooks.json",
+  "commands": "./commands"
+}

@@ -1,0 +1,29 @@
+#!/usr/bin/env sh
+# Launch the zcode-wakatime hook with a working python3. The hook detaches
+# the wakatime CLI itself, so this wrapper returns as soon as python exits.
+# Output is discarded and the exit code is always 0: a hook must never
+# surface errors to the host (`/waka` is the place to diagnose problems).
+set -u
+
+ROOT="${ZCODE_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT:-$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)}}"
+
+# Project-local PYTHON* settings must not leak into the hook. -E is NOT
+# used on purpose: on some system pythons it more than doubles startup.
+unset PYTHONSTARTUP PYTHONPATH PYTHONINSPECT PYTHONHOME
+
+run() { "$1" "$ROOT/scripts/wakatime_hook.py" >/dev/null 2>&1; exit 0; }
+
+if [ -n "${WAKATIME_PYTHON:-}" ] && [ -x "${WAKATIME_PYTHON}" ]; then
+  run "${WAKATIME_PYTHON}"
+fi
+if command -v python3 >/dev/null 2>&1; then
+  run python3
+fi
+for candidate in /usr/bin/python3 /usr/local/bin/python3 /opt/homebrew/bin/python3; do
+  if [ -x "$candidate" ]; then
+    run "$candidate"
+  fi
+done
+
+# No python3 found: stay quiet; `/waka` explains how to fix this.
+exit 0

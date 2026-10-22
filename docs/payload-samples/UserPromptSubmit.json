@@ -1,0 +1,15 @@
+{
+  "cwd": "/Users/you/proj/wakatime-zcode",
+  "hookEventName": "UserPromptSubmit",
+  "mode": "yolo",
+  "prompt": "Read the file docs/payload-samples/fixture.md with the Read tool, then reply with just its first line.",
+  "sessionId": "sess_redacted",
+  "timestamp": "2026-10-22T12:47:55.120Z",
+  "traceId": "uuid_redacted",
+  "turnId": "turn_redacted",
+  "hook_event_name": "UserPromptSubmit",
+  "permission_mode": "yolo",
+  "session_id": "sess_redacted",
+  "transcript_path": "/var/folders/tx/3rxcgkv94lg3p21pvqf69n1r0000gn/T/zcode-hook-aoDrSv/transcript.jsonl",
+  "transcriptPath": "/var/folders/tx/3rxcgkv94lg3p21pvqf69n1r0000gn/T/zcode-hook-aoDrSv/transcript.jsonl"
+}

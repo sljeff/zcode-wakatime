@@ -1,0 +1,31 @@
+{
+  "cwd": "/Users/you/proj/wakatime-zcode",
+  "error": "File does not exist. Note: your current working directory is /Users/you/proj/wakatime-zcode.",
+  "hookEventName": "PostToolUseFailure",
+  "isInterrupt": false,
+  "mode": "yolo",
+  "sessionId": "sess_redacted",
+  "timestamp": "2026-10-22T13:04:28.327Z",
+  "toolCallId": "call_redacted",
+  "toolInput": {
+    "file_path": "/Users/you/proj/wakatime-zcode/docs/payload-samples/definitely-missing.md"
+  },
+  "toolName": "Read",
+  "traceId": "uuid_redacted",
+  "turnId": "turn_redacted",
+  "hook_event_name": "PostToolUseFailure",
+  "permission_mode": "yolo",
+  "session_id": "sess_redacted",
+  "transcript_path": "/var/folders/tx/3rxcgkv94lg3p21pvqf69n1r0000gn/T/zcode-hook-vmdcP7/transcript.jsonl",
+  "transcriptPath": "/var/folders/tx/3rxcgkv94lg3p21pvqf69n1r0000gn/T/zcode-hook-vmdcP7/transcript.jsonl",
+  "tool_name": "Read",
+  "tool_input": {
+    "file_path": "/Users/you/proj/wakatime-zcode/docs/payload-samples/definitely-missing.md"
+  },
+  "tool_use_id": "call_redacted",
+  "error_details": {
+    "message": "File does not exist. Note: your current working directory is /Users/you/proj/wakatime-zcode.",
+    "type": "tool_execution_failed"
+  },
+  "is_interrupt": false
+}

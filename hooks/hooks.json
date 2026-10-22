@@ -1,0 +1,52 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "process",
+            "command": "sh",
+            "args": ["${ZCODE_PLUGIN_ROOT}/scripts/run"],
+            "timeoutMs": 3000
+          }
+        ]
+      }
+    ],
+    "PostToolUseFailure": [
+      {
+        "hooks": [
+          {
+            "type": "process",
+            "command": "sh",
+            "args": ["${ZCODE_PLUGIN_ROOT}/scripts/run"],
+            "timeoutMs": 3000
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "process",
+            "command": "sh",
+            "args": ["${ZCODE_PLUGIN_ROOT}/scripts/run"],
+            "timeoutMs": 3000
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "process",
+            "command": "sh",
+            "args": ["${ZCODE_PLUGIN_ROOT}/scripts/run"],
+            "timeoutMs": 3000
+          }
+        ]
+      }
+    ]
+  }
+}

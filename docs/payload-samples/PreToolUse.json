@@ -1,0 +1,26 @@
+{
+  "cwd": "/Users/you/proj/wakatime-zcode",
+  "hookEventName": "PreToolUse",
+  "mode": "yolo",
+  "riskLevel": "low",
+  "sessionId": "sess_redacted",
+  "sideEffectScope": "none",
+  "timestamp": "2026-10-22T12:48:00.688Z",
+  "toolCallId": "call_redacted",
+  "toolInput": {
+    "file_path": "/Users/you/proj/wakatime-zcode/docs/payload-samples/fixture.md"
+  },
+  "toolName": "Read",
+  "traceId": "uuid_redacted",
+  "turnId": "turn_redacted",
+  "hook_event_name": "PreToolUse",
+  "permission_mode": "yolo",
+  "session_id": "sess_redacted",
+  "transcript_path": "/var/folders/tx/3rxcgkv94lg3p21pvqf69n1r0000gn/T/zcode-hook-7BqeoW/transcript.jsonl",
+  "transcriptPath": "/var/folders/tx/3rxcgkv94lg3p21pvqf69n1r0000gn/T/zcode-hook-7BqeoW/transcript.jsonl",
+  "tool_name": "Read",
+  "tool_input": {
+    "file_path": "/Users/you/proj/wakatime-zcode/docs/payload-samples/fixture.md"
+  },
+  "tool_use_id": "call_redacted"
+}

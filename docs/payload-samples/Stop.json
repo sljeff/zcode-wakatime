@@ -1,0 +1,20 @@
+{
+  "cwd": "/Users/you/proj/wakatime-zcode",
+  "hookEventName": "Stop",
+  "mode": "yolo",
+  "responsePreview": "# fixture",
+  "responseText": "# fixture",
+  "sessionId": "sess_redacted",
+  "stopHookActive": false,
+  "timestamp": "2026-10-22T12:48:02.354Z",
+  "toolCallCount": 1,
+  "traceId": "uuid_redacted",
+  "turnId": "turn_redacted",
+  "hook_event_name": "Stop",
+  "permission_mode": "yolo",
+  "session_id": "sess_redacted",
+  "transcript_path": "/var/folders/tx/3rxcgkv94lg3p21pvqf69n1r0000gn/T/zcode-hook-TWPwie/transcript.jsonl",
+  "transcriptPath": "/var/folders/tx/3rxcgkv94lg3p21pvqf69n1r0000gn/T/zcode-hook-TWPwie/transcript.jsonl",
+  "last_assistant_message": "# fixture",
+  "stop_hook_active": false
+}

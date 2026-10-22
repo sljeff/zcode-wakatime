@@ -1,0 +1,16 @@
+{
+  "cwd": "/Users/you/proj/wakatime-zcode",
+  "hookEventName": "SessionStart",
+  "mode": "yolo",
+  "model": "deepseek/deepseek-flash",
+  "sessionId": "sess_redacted",
+  "source": "startup",
+  "timestamp": "2026-10-22T12:47:54.966Z",
+  "traceId": "uuid_redacted",
+  "turnId": "turn_redacted",
+  "hook_event_name": "SessionStart",
+  "permission_mode": "yolo",
+  "session_id": "sess_redacted",
+  "transcript_path": "/var/folders/tx/3rxcgkv94lg3p21pvqf69n1r0000gn/T/zcode-hook-0ictUL/transcript.jsonl",
+  "transcriptPath": "/var/folders/tx/3rxcgkv94lg3p21pvqf69n1r0000gn/T/zcode-hook-0ictUL/transcript.jsonl"
+}

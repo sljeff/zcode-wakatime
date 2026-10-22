@@ -1,0 +1,24 @@
+{
+  "name": "zcode-wakatime",
+  "owner": {
+    "name": "kindj"
+  },
+  "plugins": [
+    {
+      "name": "zcode-wakatime",
+      "source": "./",
+      "version": "0.1.2",
+      "homepage": "https://github.com/sljeff/zcode-wakatime",
+      "repository": "https://github.com/sljeff/zcode-wakatime",
+      "description": "WakaTime time tracking for ZCode: reports coding activity as heartbeats through the wakatime CLI",
+      "displayName": "ZCode WakaTime",
+      "displayName_i18n": {
+        "zh-CN": "ZCode WakaTime 时间统计"
+      },
+      "description_i18n": {
+        "zh-CN": "为 ZCode 提供 WakaTime 编码时间统计：通过 wakatime CLI 以心跳形式上报编码活动"
+      },
+      "category": "productivity"
+    }
+  ]
+}
